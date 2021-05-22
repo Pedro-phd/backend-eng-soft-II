@@ -1,0 +1,16 @@
+{
+  "name": "backend-eng-soft-ii",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Pedro-phd/backend-eng-soft-II.git",
+  "author": "Pedro Dominici pedro_dominici@outlook.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
