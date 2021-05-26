@@ -1,7 +1,7 @@
 //  BODY REQUESITION
 //  DIMENSOES EM CM
 //  PESO EM GRAMAS
-// http://localhost:3333/package?height=50&width=50&weight=2&length=20
+// http://localhost:3333/package?height=50&width=50&weight=2&length=20&state=sp
 
 const Utils = require("../utils/index");
 
