@@ -74,7 +74,7 @@ exports.get = (req, res, next) => {
       finalState
     );
 
-    res.status(200).send(`Sucesso! - Preço: ${frete}`);
+    res.status(200).json({ price: frete });
     console.log("✅ PACKAGE GET ROUTE ACCESS");
     console.log(frete);
   } else {
