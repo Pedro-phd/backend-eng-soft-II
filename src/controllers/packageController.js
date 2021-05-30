@@ -74,7 +74,10 @@ exports.get = (req, res, next) => {
       finalState
     );
 
-    res.status(200).json({ price: frete });
+    res
+      .status(200)
+      .json({ price: frete })
+      .header("Access-Control-Allow-Origin");
     console.log("✅ PACKAGE GET ROUTE ACCESS");
     console.log(frete);
   } else {
